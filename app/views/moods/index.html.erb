@@ -1,7 +1,6 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Moods</h1>
-
 <table>
   <thead>
     <tr>
@@ -12,6 +11,9 @@
   <tbody>
     <% @moods.each do |mood| %>
       <tr>
+        <%= mood.name %>
+        <%= mood.quote %>
+        <%= image_tag(mood.gif) %>
         <td><%= link_to 'Show', mood %></td>
         <td><%= link_to 'Edit', edit_mood_path(mood) %></td>
         <td><%= link_to 'Destroy', mood, method: :delete, data: { confirm: 'Are you sure?' } %></td>

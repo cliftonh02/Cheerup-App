@@ -8,23 +8,23 @@
 
 
 Mood.create([{
-  name:,
-  quote:,
-  gif:
+  name:"sad",
+  quote:"What do you do when the only one who can make you stop crying is the one who made you cry?",
+  gif: "http://i.giphy.com/Y5GVgQZCluUWQ.gif"
   },
 {
-  name:,
-  quote:,
-  gif:
+  name: "happy",
+  quote: "http://www.coolfunnyquotes.com/author/jade-lebea/happiness-price-tag/",
+  gif: "http://i.giphy.com/Y5GVgQZCluUWQ.gif"
 },
-{
-  name:,
-  quote:,
-  gif:
-},
-{
-  name:,
-  quote:,
-  gif:,
-}
+#{
+  #name:"angry",
+  #quote:"There is no angry way to say bubbles.",
+  #gif:"http://giphy.com/gifs/84rG9j2H62hwc/html5"
+#},
+#{
+  #name:"funny",
+  #quote:,
+  #gif:,
+#}
   ])
